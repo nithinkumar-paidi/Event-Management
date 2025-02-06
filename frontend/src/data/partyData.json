@@ -1,0 +1,169 @@
+{
+    "hero": {
+      "title": "Create Unforgettable Celebrations",
+      "subtitle": "Discover the perfect venue for your special occasion",
+      "backgroundImage": "/assets/photography4.jpg"
+    },
+    "venues": [
+      {
+        "id": 1,
+        "name": "Grand Celebration Hall",
+        "capacity": "50-300",
+        "price": "$2000-5000",
+        "description": "An elegant venue perfect for weddings, corporate events, and grand celebrations",
+        "features": [
+          "Modern LED lighting system",
+          "State-of-the-art sound system",
+          "Full-service kitchen",
+          "Dedicated parking space"
+        ],
+        "image": "/assets/decoration2.jpg",
+        "rating": 4.8
+      },
+      {
+        "id": 2,
+        "name": "Garden Paradise",
+        "capacity": "100-500",
+        "price": "$3000-8000",
+        "description": "Beautiful outdoor venue with lush gardens and modern amenities",
+        "features": [
+          "Landscaped gardens",
+          "Weather backup facility",
+          "Outdoor lighting",
+          "BBQ area"
+        ],
+        "image": "/assets/decoration4.jpg",
+        "rating": 4.9
+      }
+    ],
+    "features": [
+      {
+        "id": 1,
+        "title": "Theme Customization",
+        "description": "Choose from our wide range of party themes or create your own custom theme",
+        "icon": "Palette"
+      },
+      {
+        "id": 2,
+        "title": "Full-Service Catering",
+        "description": "Professional catering services with customizable menus",
+        "icon": "UtensilsCrossed"
+      },
+      {
+        "id": 3,
+        "title": "Event Planning",
+        "description": "Expert event planners to help coordinate your perfect celebration",
+        "icon": "Calendar"
+      }
+    ],
+    "gallery": [
+      {
+        "id": 1,
+        "title": "Wedding Reception",
+        "image": "/assets/wedding.jpg",
+        "date": "2024-01-15"
+      },
+      {
+        "id": 2,
+        "title": "Corporate Event",
+        "image": "/assets/anniversary.jpg",
+        "date": "2024-01-20"
+      },
+      {
+        "id": 3,
+        "title": "Birthday Party",
+        "image": "/assets/gamenight4.jpg",
+        "date": "2024-01-25"
+      }
+    ],
+    "testimonials": [
+        {
+          "id": 1,
+          "name": "Sarah Johnson",
+          "event": "Wedding Reception",
+          "comment": "The venue was absolutely perfect for our wedding. The staff went above and beyond to make our day special.",
+          "rating": 5,
+          "image": "/assets/decoration2.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Michael Chen",
+          "event": "Corporate Event",
+          "comment": "Professional service and amazing attention to detail. Our company event was a huge success.",
+          "rating": 5,
+          "image": "/assets/decoration4.jpg"
+        }
+      ],
+      "packages": [
+        {
+          "id": 1,
+          "name": "Basic Package",
+          "price": "$2000",
+          "description": "Perfect for intimate gatherings",
+          "features": [
+            "Up to 50 guests",
+            "4-hour venue rental",
+            "Basic decoration",
+            "Sound system"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Premium Package",
+          "price": "$4000",
+          "description": "Ideal for medium-sized events",
+          "features": [
+            "Up to 150 guests",
+            "6-hour venue rental",
+            "Full decoration",
+            "Sound system",
+            "Catering service",
+            "Event coordinator"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Luxury Package",
+          "price": "$8000",
+          "description": "The ultimate celebration package",
+          "features": [
+            "Up to 300 guests",
+            "8-hour venue rental",
+            "Premium decoration",
+            "Professional sound & lighting",
+            "Full catering service",
+            "Dedicated event team",
+            "Photography service"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "id": 1,
+          "question": "How far in advance should I book the venue?",
+          "answer": "We recommend booking at least 3-6 months in advance for peak seasons, though some dates may require earlier booking."
+        },
+        {
+          "id": 2,
+          "question": "Can I bring my own catering?",
+          "answer": "Yes, you can bring your own catering for an additional fee. However, we recommend our in-house catering services for the best experience."
+        },
+        {
+          "id": 3,
+          "question": "What is your cancellation policy?",
+          "answer": "Full refund if cancelled 60 days before the event, 50% refund if cancelled 30 days before. No refund for cancellations less than 30 days before the event."
+        }
+      ],
+      "contactInfo": {
+        "phone": "+1 (555) 123-4567",
+        "email": "events@example.com",
+        "address": "123 Celebration Street, Party City, PC 12345",
+        "hours": "Mon-Sat: 9:00 AM - 7:00 PM",
+        "socialMedia": {
+          "facebook": "partyvenueofficial",
+          "instagram": "partyvenue",
+          "twitter": "partyvenue"
+        }
+      }
+    
+  }

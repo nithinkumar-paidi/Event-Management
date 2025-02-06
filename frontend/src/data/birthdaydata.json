@@ -1,0 +1,239 @@
+{
+    "bannerSlides": [
+      {
+        "id": 1,
+        "image": "/assets/birthdayp.jpg",
+        "message": "Create Unforgettable Birthday Memories",
+        "subtext": "Join us for an extraordinary celebration!"
+      },
+      {
+        "id": 2,
+        "image": "/assets/party.jpg",
+        "message": "Special Birthday Event Coming Soon",
+        "subtext": "Stay tuned for amazing surprises!"
+      },
+      {
+        "id": 3,
+        "image": "/assets/camping1.jpg",
+        "message": "Make Your Birthday Magical",
+        "subtext": "Book now for exclusive offers!"
+      }
+    ],
+    "services": [
+      {
+        "id": 1,
+        "title": "Decorations",
+        "description": "Beautiful decorations for your event.",
+        "image": "/assets/decoration.jpg",
+        "galleryImages": [
+          { "url": "./assets/decoration1.jpg", "description": "Decoration 1" },
+          { "url": "./assets/decoration2.jpg", "description": "Decoration 2" },
+          { "url": "./assets/decoration3.jpg", "description": "Decoration 3" },
+          { "url": "./assets/decoration4.jpg", "description": "Decoration 4" },
+          { "url": "./assets/decoration5.jpg", "description": "Decoration 5" },
+          { "url": "./assets/decoration6.jpg", "description": "Decoration 6" },
+          { "url": "./assets/decoration7.jpg", "description": "Decoration 7" },
+          { "url": "./assets/decoration8.jpg", "description": "Decoration 8" },
+          { "url": "./assets/decoration9.jpg", "description": "Decoration 9" },
+          { "url": "./assets/decoration.jpg", "description": "Decoration 10" }
+         
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Photography",
+        "description": "Capture your moments.",
+        "image": "assets/photography.jpg",
+        "galleryImages": [
+          { "url": "./assets/photography1.jpg", "description": "Photo 1" },
+          { "url": "./assets/photography2.jpg", "description": "Photo 2" },
+          { "url": "./assets/photography3.jpg", "description": "Photo 3" },
+          { "url": "./assets/photography4.jpg", "description": "Photo 4" },
+          { "url": "./assets/photography5.jpg", "description": "Photo 5" },
+          { "url": "./assets/photography6.jpg", "description": "Photo 6" },
+          { "url": "./assets/photography7.jpg", "description": "Photo 7" },
+          { "url": "./assets/photography8.jpg", "description": "Photo 8" },
+          { "url": "./assets/photography9.jpg", "description": "Photo 9" },
+          { "url": "./assets/photography10.jpg", "description": "Photo 10" },
+          { "url": "./assets/photography11.jpg", "description": "Photo 11" },
+          { "url": "./assets/photography12.jpg", "description": "Photo 12" },
+          { "url": "./assets/photography13.jpg", "description": "Photo 13" },
+          { "url": "./assets/photography14.jpg", "description": "Photo 14" },
+          { "url": "./assets/photography15.jpg", "description": "Photo 15" }
+         
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Catering",
+        "description": "Music and activities",
+        "image": "/assets/catering8.jpg",
+        "galleryImages": [
+          { "url": "./assets/catering1.jpg", "description": "Photo 1" },
+          { "url": "./assets/catering2.jpg", "description": "Photo 2" },
+          { "url": "./assets/catering3.jpg", "description": "Photo 3" },
+          { "url": "./assets/catering4.jpg", "description": "Photo 4" },
+          { "url": "./assets/catering5.jpg", "description": "Photo 5" },
+          { "url": "./assets/catering6.jpg", "description": "Photo 6" },
+          { "url": "./assets/catering7.jpg", "description": "Photo 7" },
+          { "url": "./assets/catering8.jpg", "description": "Photo 8" },
+          { "url": "./assets/catering9.jpg", "description": "Photo 9" },
+          { "url": "./assets/catering10.jpg", "description": "Photo 10" },
+          { "url": "./assets/catering11.jpg", "description": "Photo 11" },
+          { "url": "./assets/catering12.jpg", "description": "Photo 12" },
+          { "url": "./assets/catering13.jpg", "description": "Photo 13" }
+        
+         
+        ]
+      }
+    ],
+    "recentPhotos": [
+      {
+        "id": 1,
+        "image": "/assets/baby.jpg",
+        "title": "Birthday Party 1"
+      },
+      {
+        "id": 2,
+        "image": "/assets/camping1.jpg",
+        "title": "Birthday Party 2"
+      },
+      {
+        "id": 3,
+        "image": "/assets/photography.jpg",
+        "title": "Birthday Party 3"
+      },
+      {
+        "id": 4,
+        "image": "/assets/photography3.jpg",
+        "title": "Birthday Party 4"
+      },
+      {
+        "id": 5,
+        "image": "/assets/decoration7.jpg",
+        "title": "Birthday Party 5"
+      },
+      {
+        "id": 6,
+        "image": "/assets/photography5.jpg",
+        "title": "Birthday Party 6"
+      },
+      {
+        "id": 7,
+        "image": "/assets/birthdayp.jpg",
+        "title": "Birthday Party 7"
+      },
+      {
+        "id": 8,
+        "image": "/assets/photography7.jpg",
+        "title": "Birthday Party 8"
+      },
+      {
+        "id": 9,
+        "image": "/assets/photography2.jpg",
+        "title": "Birthday Party 9"
+      }
+      
+    ],
+    "packages": [
+      {
+        "id": 1,
+        "name": "Basic Package",
+        "price": "499",
+        "features": [
+          "Basic decorations setup",
+          "2-hour photography coverage",
+          "Standard cake and snacks",
+          "Up to 20 guests",
+          "Basic party supplies"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Premium Package",
+        "price": "999",
+        "features": [
+          "Custom theme decorations",
+          "4-hour photo/video coverage",
+          "Custom cake and full catering",
+          "Up to 50 guests",
+          "Party favors included",
+          "Dedicated event coordinator"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Luxury Package",
+        "price": "1499",
+        "features": [
+          "Premium decorations and lighting",
+          "Full-day event coverage",
+          "Premium catering service",
+          "Unlimited guests",
+          "Custom party favors",
+          "Full event planning team",
+          "Entertainment included"
+        ]
+      }
+    ],
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "Sarah Johnson",
+        "avatar": "/assets/party.jpg",
+        "text": "The team made my daughter's sweet 16 absolutely perfect! Every detail was taken care of.",
+        "date": "March 15, 2024"
+      },
+      {
+        "id": 2,
+        "name": "Michael Brown",
+        "avatar": "/assets/avatar2.jpg",
+        "text": "Professional service from start to finish. The decorations were exactly what we wanted!",
+        "date": "March 10, 2024"
+      },
+      {
+        "id": 3,
+        "name": "Emily Davis",
+        "avatar": "/assets/avatar3.jpg",
+        "text": "Best decision ever! They made my son's 5th birthday party magical and stress-free.",
+        "date": "March 5, 2024"
+      }
+    ],
+    "faqs": [
+      {
+        "id": 1,
+        "question": "How far in advance should I book my event?",
+        "answer": "We recommend booking at least 2-3 months in advance to ensure availability and allow adequate planning time."
+      },
+      {
+        "id": 2,
+        "question": "What is included in the basic package?",
+        "answer": "Our basic package includes decorations setup, 2-hour photography coverage, standard cake and snacks, and accommodates up to 20 guests."
+      },
+      {
+        "id": 3,
+        "question": "Do you provide custom theme decorations?",
+        "answer": "Yes! We offer custom theme decorations for all age groups and preferences. This is available in our Premium and Luxury packages."
+      },
+      {
+        "id": 4,
+        "question": "Can you accommodate dietary restrictions?",
+        "answer": "Absolutely! Our catering service can accommodate various dietary requirements including vegetarian, vegan, gluten-free, and allergen-free options."
+      }
+    ],
+    "contactInfo": {
+      "address": "123 Party Street, Celebration City, ST 12345",
+      "email": "info@birthdayevents.com",
+      "phone": "(555) 123-4567",
+      "businessHours": {
+        "weekday": "9:00 AM - 7:00 PM",
+        "weekend": "10:00 AM - 5:00 PM",
+        "closed": "Sunday"
+      },
+      "socialMedia": {
+        "facebook": "birthdayevents",
+        "instagram": "@birthdayevents",
+        "twitter": "@birthdayevents"
+      }
+    }
+  }

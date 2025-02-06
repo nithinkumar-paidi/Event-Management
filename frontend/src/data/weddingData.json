@@ -1,0 +1,273 @@
+{
+  "heroSection": {
+    "title": "Sarah & Michael",
+    "date": "June 15, 2024",
+    "location": "The Grand Plaza, New York",
+    "backgroundImage": "/assets/wedding5.jpg"
+  },
+  "coupleSection": {
+    "bride": {
+      "name": "Sarah Johnson",
+      "image": "/assets/wedding2.jpg",
+      "description": "Sarah is a kindergarten teacher who loves painting and outdoor adventures. Her smile lights up any room she enters, and her kindness touches everyone around her."
+    },
+    "groom": {
+      "name": "Michael Anderson",
+      "image": "/assets/wedding3.jpg",
+      "description": "Michael is a software engineer with a passion for music and photography. His warm personality and sense of humor make him the perfect match for Sarah."
+    }
+  },
+  "storySection": {
+    "timeline": [
+      {
+        "date": "September 2020",
+        "title": "First Meeting",
+        "description": "We met at a local coffee shop where Michael was working on his laptop and Sarah was grading papers. A spilled coffee led to a conversation that would change our lives forever.",
+        "image": "/assets/wedding3.jpg"
+      },
+      {
+        "date": "December 2020",
+        "title": "First Date",
+        "description": "Our first official date was at the Central Park winter festival. We ice skated (poorly), drank hot chocolate, and talked for hours.",
+        "image": "/assets/wedding2.jpg"
+      },
+      {
+        "date": "July 2021",
+        "title": "Moving In Together",
+        "description": "After a year of dating, we decided to take the next step and move in together. Our little apartment became our first shared home.",
+        "image": "/assets/wedding4.jpg"
+      },
+      {
+        "date": "December 2023",
+        "title": "The Proposal",
+        "description": "Michael proposed during a surprise weekend getaway to the mountains. With fresh snow falling and a beautiful sunset, he got down on one knee.",
+        "image": "/assets/wedding5.jpg"
+      }
+    ]
+  },
+  "eventDetails": {
+    "events": [
+      {
+        "type": "ceremony",
+        "name": "Wedding Ceremony",
+        "date": "June 15, 2024 - 2:00 PM",
+        "location": "St. Patrick's Cathedral",
+        "description": "Join us as we exchange vows in this beautiful historic cathedral."
+      },
+      {
+        "type": "reception",
+        "name": "Reception Celebration",
+        "date": "June 15, 2024 - 5:00 PM",
+        "location": "The Grand Plaza Ballroom",
+        "description": "Dinner, dancing, and celebration to follow the ceremony."
+      },
+      {
+        "type": "afterParty",
+        "name": "Sunday Brunch",
+        "date": "June 16, 2024 - 11:00 AM",
+        "location": "The Garden Restaurant",
+        "description": "Casual brunch gathering for out-of-town guests and family."
+      }
+    ]
+  },
+  "gallery": {
+    "images": [
+      {
+        "url": "/assets/photography1.jpg",
+        "caption": "Engagement Photo Shoot"
+      },
+      {
+        "url": "/assets/photography2.jpg",
+        "caption": "Weekend Getaway"
+      },
+      {
+        "url": "/assets/photography3.jpg",
+        "caption": "Beach Vacation"
+      },
+      {
+        "url": "/assets/photography4.jpg",
+        "caption": "Holiday Celebrations"
+      },
+      {
+        "url": "/assets/photography5.jpg",
+        "caption": "Family Gathering"
+      },
+      {
+        "url": "/assets/photography6.jpg",
+        "caption": "Adventure Time"
+      }
+    ]
+  },
+  "services": {
+    "vendors": [
+      {
+        "type": "photography",
+        "name": "Crystal Clear Photography",
+        "description": "Capturing your special moments with artistic flair and attention to detail.",
+        "website": "https://crystalclear.com"
+      },
+      {
+        "type": "catering",
+        "name": "Divine Dining Catering",
+        "description": "Exquisite cuisine that combines traditional favorites with modern flair.",
+        "website": "https://divinedining.com"
+      },
+      {
+        "type": "music",
+        "name": "Harmony Band",
+        "description": "Creating the perfect atmosphere with a mix of classical and contemporary music.",
+        "website": "https://harmonyband.com"
+      },
+      {
+        "type": "flowers",
+        "name": "Blooming Beauty Florals",
+        "description": "Stunning floral arrangements that bring your wedding vision to life.",
+        "website": "https://bloomingbeauty.com"
+      }
+    ]
+  },
+  "rsvpSection": {
+    "backgroundImage": "/images/rsvp-background.jpg",
+    "description": "We would be honored to have you join us on our special day. Please let us know if you'll be able to attend.",
+    "deadline": "May 15, 2024"
+  },
+  "registrySection": {
+    "description": "Your presence at our wedding is the greatest gift of all. However, if you wish to honor us with a gift, we are registered at the following stores:",
+    "registries": [
+      {
+        "name": "Crate & Barrel",
+        "logo": "/assets/photography2.jpg",
+        "link": "https://www.crateandbarrel.com/gift-registry"
+      },
+      {
+        "name": "Amazon",
+        "logo": "/assets/photography3.jpg",
+        "link": "https://www.amazon.com/wedding"
+      },
+      {
+        "name": "Target",
+        "logo": "/assets/photography6.jpg",
+        "link": "https://www.target.com/gift-registry"
+      }
+    ]
+  },
+  "testimonials": {
+    "wishes": [
+      {
+        "message": "Sarah and Michael are truly meant for each other. Their love story is an inspiration to us all.",
+        "author": "Emma Thompson",
+        "relation": "Bride's Sister",
+        "authorImage": "/assets/photography2.jpg"
+      },
+      {
+        "message": "I've known Michael since college, and I've never seen him happier than when he's with Sarah.",
+        "author": "James Wilson",
+        "relation": "Groom's Best Friend",
+        "authorImage": "/assets/photography4.jpg"
+      },
+      {
+        "message": "Watching their love grow over the years has been beautiful. They complement each other perfectly.",
+        "author": "Linda Anderson",
+        "relation": "Groom's Mother",
+        "authorImage": "/assets/photography3.jpg"
+      }
+    ]
+  },
+  "bookingSection": {
+    "title": "Book Your Attendance",
+    "subtitle": "Reserve your place at our special day",
+    "backgroundImage": "/images/booking-bg.jpg",
+    "packages": [
+      {
+        "name": "Single Guest",
+        "price": "$150",
+        "includes": [
+          "Wedding ceremony attendance",
+          "Reception dinner seat",
+          "Evening party access",
+          "Welcome drink",
+          "Gift bag"
+        ],
+        "maxGuests": 1
+      },
+      {
+        "name": "Couple Package",
+        "price": "$280",
+        "includes": [
+          "Wedding ceremony attendance for two",
+          "Reception dinner seats",
+          "Evening party access",
+          "Welcome drinks",
+          "Two gift bags",
+          "Commemorative photo"
+        ],
+        "maxGuests": 2
+      },
+      {
+        "name": "Family Package",
+        "price": "$500",
+        "includes": [
+          "Wedding ceremony attendance for four",
+          "Reception dinner seats",
+          "Evening party access",
+          "Welcome drinks",
+          "Family gift basket",
+          "Priority seating",
+          "Family photo session"
+        ],
+        "maxGuests": 4
+      }
+    ],
+    "additionalInfo": {
+      "paymentMethods": ["Credit Card", "PayPal", "Bank Transfer"],
+      "cancellationPolicy": "Free cancellation up to 30 days before the event",
+      "contactEmail": "bookings@sarahandmichael.com",
+      "contactPhone": "+1 (555) 123-4567"
+    },
+    "formFields": [
+      {
+        "id": "fullName",
+        "label": "Full Name",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "email",
+        "label": "Email Address",
+        "type": "email",
+        "required": true
+      },
+      {
+        "id": "phone",
+        "label": "Phone Number",
+        "type": "tel",
+        "required": true
+      },
+      {
+        "id": "packageType",
+        "label": "Select Package",
+        "type": "select",
+        "required": true
+      },
+      {
+        "id": "numberOfGuests",
+        "label": "Number of Guests",
+        "type": "number",
+        "required": true
+      },
+      {
+        "id": "specialRequirements",
+        "label": "Special Requirements",
+        "type": "textarea",
+        "required": false
+      },
+      {
+        "id": "dietaryRestrictions",
+        "label": "Dietary Restrictions",
+        "type": "textarea",
+        "required": false
+      }
+    ]
+  }
+  
+}

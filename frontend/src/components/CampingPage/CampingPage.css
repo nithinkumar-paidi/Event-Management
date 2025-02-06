@@ -1,0 +1,210 @@
+/* General styles */
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #638790;
+    color: #333;
+  } */
+  
+  .camping-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Scrolling Banner with Multiple Video Slides */
+
+  .scrolling-banner {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    margin-bottom: 71px;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+  
+  .video-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .banner-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+  }
+  
+  .banner-video.visible {
+    opacity: 1;
+  }
+  
+  .fixed-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.248);
+    padding: 30px 40px;
+    border-radius: 10px;
+    animation: fadeIn 2s ease-in-out;
+    font-family:" times new roman"
+  }
+  
+  .fixed-message h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .fixed-message p {
+    font-size: 1.2rem;
+    margin: 0;
+    line-height: 1.6;
+  }
+  
+  /* Section Styles */
+  .camping-section {
+    margin-bottom: 40px;
+  }
+  
+  .camping-section h2 {
+    font-size: 1.8rem;
+    color: #d84628;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #03152a;
+    display: inline-block;
+    font-family:geneva;
+    background-color: lightcyan;
+  }
+  
+  .camping-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap:30px;
+  }
+  
+  .camping-item {
+    background: rgb(219, 234, 194);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .camping-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover img {
+    transform: scale(1.1);
+  }
+  
+  /* Book Now Container - Always below the image */
+  .book-now-container {
+    text-align: center;
+    padding: 10px;
+    background-color: #89a72882;
+    border-radius: 5px;
+    margin-top: 10px; /* Ensures it appears below the image */
+  }
+  
+  .book-btn {
+    background: #d4c3c3;
+    color: #03220aca;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .book-btn:hover {
+    background: #218838;
+  }
+  
+  .camping-item h3 {
+    font-size: 1.2rem;
+    margin: 15px;
+    text-align: center;
+    color: #444;
+  }
+  
+  .camping-item p {
+    font-size: 1rem;
+    margin: 10px 15px;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .footer h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #f4f4f4;
+  }
+  
+  .footer p {
+    margin: 10px 0 0;
+    font-size: 1rem;
+    font-style: italic;
+    color: #ddd;
+  }
+  
+  /* Keyframes for fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .fixed-message h2 {
+      font-size: 1.5rem;
+    }
+  
+    .fixed-message p {
+      font-size: 1rem;
+    }
+  }
+  

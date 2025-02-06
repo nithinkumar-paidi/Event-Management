@@ -1,0 +1,379 @@
+/* Main Container */
+.gamenight-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-top: 105px;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 60px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  color: white;
+  padding: 20px;
+}
+
+.game-title {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.game-text {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.cta-button {
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  background-color: #ff4757;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #ff6b81;
+}
+
+/* Section Titles */
+.section-titles {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.small-title {
+  color: #ff4757;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.big-title {
+  font-size: 2.5rem;
+  color: #2f3542;
+  font-weight: 700;
+}
+
+/* Games Section */
+.games-section {
+  padding: 60px 0;
+}
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 20px;
+}
+
+.game-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.game-card:hover {
+  transform: translateY(-5px);
+}
+
+.game-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.game-info {
+  padding: 20px;
+}
+
+.game-name {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #2f3542;
+}
+
+.game-desc {
+  color: #747d8c;
+  line-height: 1.6;
+}
+
+/* Categories Section */
+.categories-section {
+  padding: 60px 0;
+  background-color: #f1f2f6;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 20px;
+}
+
+.category-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.category-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.category-content {
+  padding: 20px;
+}
+
+.category-name {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #2f3542;
+}
+
+.category-desc {
+  color: #747d8c;
+  margin-bottom: 15px;
+}
+
+.featured-games {
+  margin-top: 15px;
+}
+
+.featured-games h4 {
+  margin-bottom: 10px;
+  color: #2f3542;
+}
+
+.featured-games ul {
+  list-style: none;
+  padding: 0;
+}
+
+.featured-games li {
+  color: #747d8c;
+  margin-bottom: 5px;
+}
+
+/* Services Section */
+.services-section {
+  padding: 60px 0;
+}
+
+.services-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.services-subtitle {
+  text-align: center;
+  color: #747d8c;
+  margin-bottom: 40px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 20px;
+}
+
+.service-card {
+  text-align: center;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ff4757;
+}
+
+.service-name {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #2f3542;
+}
+
+.service-description {
+  color: #747d8c;
+  line-height: 1.6;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  padding: 60px 0;
+  background-color: #f1f2f6;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 20px;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-text {
+  font-style: italic;
+  color: #2f3542;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.testimonial-author {
+  margin-bottom: 10px;
+}
+
+.author-name {
+  font-weight: 600;
+  color: #2f3542;
+}
+
+.author-role {
+  color: #747d8c;
+  font-size: 0.9rem;
+}
+
+.rating {
+  color: #ffa502;
+  letter-spacing: 2px;
+}
+
+/* Pricing Section */
+.pricing-section {
+  padding: 60px 0;
+}
+
+.pricing-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #2f3542;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 20px;
+}
+
+.pricing-card {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+}
+
+.package-name {
+  font-size: 1.3rem;
+  color: #2f3542;
+  margin-bottom: 15px;
+}
+
+.package-price {
+  font-size: 2.5rem;
+  color: #ff4757;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.package-duration {
+  color: #747d8c;
+  margin-bottom: 20px;
+}
+
+.package-features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.package-features li {
+  color: #747d8c;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.book-button {
+  padding: 12px 25px;
+  background-color: #ff4757;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.book-button:hover {
+  background-color: #ff6b81;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .game-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-section {
+    height: 400px;
+  }
+  
+  .services-grid,
+  .games-grid,
+  .categories-grid,
+  .testimonials-grid,
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .section-titles {
+    padding: 0 20px;
+  }
+}

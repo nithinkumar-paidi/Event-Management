@@ -1,0 +1,153 @@
+{
+  "heroSection": {
+    "title": "Epic Game Night Adventures",
+    "description": "Join us for unforgettable evenings of strategy, skill, and laughter. Perfect for team building, family gatherings, or friend meetups!",
+    "backgroundImage": "/assets/gamenight.jpg"
+  },
+  "popularGames": {
+    "sectionTitle": {
+      "small": "Our Collection",
+      "big": "Most Popular Games"
+    },
+    "games": [
+      {
+        "name": "Catan",
+        "playerCount": "3-4 Players",
+        "duration": "60-120 mins",
+        "difficulty": "Medium",
+        "image": "/assets/gamenight1.jpg",
+        "alt": "Catan board game setup",
+        "description": "Build, trade, and settle in this classic strategy game"
+      },
+      {
+        "name": "Pandemic Legacy",
+        "playerCount": "2-4 Players",
+        "duration": "60 mins",
+        "difficulty": "Hard",
+        "image": "/assets/gamenight2.jpg",
+        "alt": "Pandemic Legacy game box",
+        "description": "Work together to save humanity in this cooperative adventure"
+      },
+      {
+        "name": "Ticket to Ride",
+        "playerCount": "2-5 Players",
+        "duration": "30-60 mins",
+        "difficulty": "Easy",
+        "image": "/assets/gamenight3.jpg",
+        "alt": "Ticket to Ride Europe map",
+        "description": "Build train routes across countries and continents"
+      },
+      {
+        "name": "Codenames",
+        "playerCount": "4-8 Players",
+        "duration": "15-30 mins",
+        "difficulty": "Easy",
+        "image": "/assets/gamenight4.jpg",
+        "alt": "Codenames game cards",
+        "description": "Test your word skills in this team-based party game"
+      }
+    ]
+  },
+  "gameCategories": {
+    "sectionTitle": {
+      "small": "Game Types",
+      "big": "Choose Your Adventure"
+    },
+    "categories": [
+      {
+        "name": "Strategy Games",
+        "description": "Deep thinking and careful planning lead to victory",
+        "image": "/assets/gamenight1.jpg",
+        "alt": "Strategy board game",
+        "featured": ["Catan", "7 Wonders", "Terraforming Mars"]
+      },
+      {
+        "name": "Party Games",
+        "description": "Perfect for large groups and casual fun",
+        "image": "/assets/gamenight2.jpg",
+        "alt": "Party game session",
+        "featured": ["Codenames", "Pictionary", "Just One"]
+      },
+      {
+        "name": "Family Games",
+        "description": "Fun for all ages and skill levels",
+        "image": "/assets/gamenight3.jpg",
+        "alt": "Family playing board game",
+        "featured": ["Ticket to Ride", "Carcassonne", "Sushi Go"]
+      },
+      {
+        "name": "Card Games",
+        "description": "Quick to learn, hard to master",
+        "image": "/assets/gamenight4.jpg",
+        "alt": "Card game setup",
+        "featured": ["Magic: The Gathering", "Pokemon TCG", "KeyForge"]
+      }
+    ]
+  },
+  "services": {
+    "title": "What We Offer",
+    "subtitle": "Everything you need for the perfect game night",
+    "items": [
+      {
+        "name": "Curated Game Selection",
+        "description": "Access our library of 200+ carefully selected board games, card games, and party games suitable for all ages and group sizes.",
+        "icon": "collection"
+      },
+      {
+        "name": "Expert Game Masters",
+        "description": "Our trained game masters will teach rules, facilitate gameplay, and ensure everyone has a great time.",
+        "icon": "users"
+      },
+      {
+        "name": "Premium Snack Bar",
+        "description": "Enjoy our selection of game-friendly snacks and beverages, including vegetarian and gluten-free options.",
+        "icon": "coffee"
+      },
+      {
+        "name": "Flexible Venues",
+        "description": "Choose from our themed gaming rooms or let us bring the fun to your location with our mobile game night service.",
+        "icon": "map"
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "name": "Sarah K.",
+      "role": "Corporate Event Planner",
+      "comment": "The perfect team building activity! Our employees are still talking about it.",
+      "rating": 5
+    },
+    {
+      "name": "Mike R.",
+      "role": "Regular Player",
+      "comment": "Found an amazing gaming community here. The game masters are super knowledgeable!",
+      "rating": 5
+    }
+  ],
+  "pricing": {
+    "title": "Gaming Packages",
+    "options": [
+      {
+        "name": "Casual Gaming",
+        "price": "$25",
+        "duration": "2 hours",
+        "features": [
+          "Access to game library",
+          "Basic snacks & drinks",
+          "Gaming table for 4"
+        ]
+      },
+      {
+        "name": "Premium Party",
+        "price": "$45",
+        "duration": "4 hours",
+        "features": [
+          "Game master included",
+          "Premium snack bar access",
+          "Private gaming room",
+          "Up to 8 players"
+        ]
+      }
+    ]
+  }
+}

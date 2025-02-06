@@ -1,0 +1,757 @@
+/* Wedding Page Styles */
+.wedding-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Global Styles */
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ff4757;;
+  margin-bottom: 2rem;
+  font-family: 'Playfair Display', serif;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  color: white;
+  padding: 2rem;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.hero-content .date {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-content .location {
+  font-size: 1.2rem;
+}
+
+/* Couple Section */
+.couple-section {
+  padding: 5rem 2rem;
+  background: #fff;
+}
+
+.couple-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.person-card {
+  text-align: center;
+  flex: 1;
+}
+
+.person-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.heart-divider {
+  color: #e74c3c;
+}
+
+/* Story Section */
+.story-section {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #fdf2f8; /* Light pink background */
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background: #e74c3c;
+}
+
+.timeline-event {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.timeline-event:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.timeline-content {
+  width: 45%;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-date {
+  width: 45%;
+  text-align: right;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+/* Events Section */
+.events-section {
+  padding: 5rem 2rem;
+  background: #fff;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.event-card {
+  padding: 2rem;
+  text-align: center;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.event-icon {
+  color: #e74c3c;
+  margin-bottom: 1rem;
+}
+
+/* Gallery Section */
+.gallery-section {
+  padding: 5rem 2rem;
+  background: #f9f9f9;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+/* Services Section */
+.services-section {
+  padding: 5rem 2rem;
+  background: #fff;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-card {
+  padding: 2rem;
+  text-align: center;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* RSVP Section */
+.rsvp-section {
+  padding: 5rem 2rem;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.rsvp-overlay {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 3rem;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.rsvp-button {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.rsvp-button:hover {
+  background: #c0392b;
+}
+
+/* Registry Section */
+.registry-section {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #fff5f7; /* Soft pink background */
+}
+
+.registry-intro {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.registry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.registry-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+.registry-card:hover {
+  transform: scale(1.05);
+}
+
+.registry-card img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+.registry-card h3 {
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .registry-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .registry-card img {
+    max-width: 120px;
+  }
+}
+/* Testimonials Section */
+.testimonials-section {
+  padding: 5rem 2rem;
+  background: #fff;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.testimonial-author img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .couple-container {
+    flex-direction: column;
+  }
+
+  .timeline::before {
+    left: 0;
+  }
+
+  .timeline-event {
+    flex-direction: column !important;
+  }
+
+  .timeline-content,
+  .timeline-date {
+    width: 100%;
+    text-align: left;
+  }
+
+  .registry-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Booking Section Styles */
+.booking-section {
+  width: 100%;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.booking-overlay {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 3rem;
+  border-radius: 12px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.booking-subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 3rem;
+}
+
+.packages-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.package-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, background 0.3s ease;
+  cursor: pointer;
+  width: 280px;
+}
+
+.package-card:hover {
+  transform: scale(1.05);
+}
+
+.package-name {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.package-price {
+  font-size: 2rem;
+  color: #e74c3c;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.package-features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.package-features li {
+  margin-bottom: 0.8rem;
+  color: #666;
+}
+.package-card.selected {
+  border: 2px solid #ffcc00;
+  background: rgba(255, 204, 0, 0.2);
+}
+
+.package-card.booked {
+  background: #ddd;
+  cursor: not-allowed;
+}
+.max-guests {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  color: #666;
+}
+
+.book-now-button {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 100%;
+}
+
+.book-now-button:hover {
+  background: #c0392b;
+}
+
+.booking-form-container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  width: 50%;
+  color: white;
+}
+
+.booking-form-container h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #ff4757;
+}
+
+.booking-form {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.submit-booking {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background 0.3s ease;
+}
+
+.submit-booking:hover {
+  background: #c0392b;
+}
+
+.additional-info {
+  margin-top: 3rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .booking-overlay {
+    padding: 2rem 1rem;
+  }
+  
+  .packages-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .booking-form-container {
+    padding: 1rem;
+  }
+  
+  
+.booking-form-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 80vh;
+  background: url('/assets/booking-background.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+/* Add a semi-transparent overlay to improve text readability */
+.booking-form-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay for better contrast */
+}
+
+/* Booking Form Container */
+.booking-form-container {
+  position: relative;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px); /* Glass effect */
+  padding: 30px;
+  border-radius: 10px;
+  width: 45%;
+  color: white;
+  text-align: center;
+}
+
+/* Make form elements fit nicely */
+.booking-form label {
+  display: block;
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+/* Submit Button */
+.submit-booking {
+  width: 100%;
+  padding: 12px;
+  background: #ffcc00;
+  border: none;
+  color: black;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.submit-booking:hover {
+  background: #e6b800;
+}
+}
+/* Booking Form Wrapper with Responsive Background */
+.booking-form-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 80vh;
+  background: url('/assets/photography4.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+/* Semi-transparent overlay for improved readability */
+.booking-form-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* Booking Form Container */
+.booking-form-container {
+  position: relative;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px); /* Glass effect */
+  padding: 30px;
+  border-radius: 10px;
+  width: 45%;
+  color: white;
+  text-align: center;
+}
+
+/* Form element styling */
+.booking-form label {
+  display: block;
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+.submit-booking {
+  width: 100%;
+  padding: 12px;
+  background: #ffcc00;
+  border: none;
+  color: black;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.submit-booking:hover {
+  background: #e6b800;
+}
+
+/* Responsive Adjustments for Medium Screens */
+@media (max-width: 1024px) {
+  .booking-form-container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .booking-form-container {
+    width: 80%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .booking-form-container {
+    width: 90%;
+  }
+  .booking-form input,
+  .booking-form select,
+  .booking-form textarea {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Adjustments for Large Screens (1200px and above) */
+@media (min-width: 1200px) {
+  .booking-form-wrapper {
+    min-height: 100vh; /* Extend the section height if needed */
+    background-position: center center;
+    background-size: cover; /* Ensure the image covers the container */
+  }
+  .booking-form-container {
+    width: 35%;  /* Slightly narrower container on large screens */
+  }
+}
+
+/* Love Story Section Images */
+.timeline-content img {
+  width: 100%;
+  max-height: 200px;
+  border-radius: 10px;
+  margin-top: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+  transition: transform 0.3s ease-in-out;
+}
+
+.timeline-content img:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
